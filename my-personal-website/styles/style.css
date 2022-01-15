@@ -1,0 +1,50 @@
+@keyframes background {
+    25% {background-color:#8d5c6b;}
+    50% {background-color:purple;}
+    75% {background-color:red;}
+    100% {background-color:green;}
+}
+@keyframes h1_color {
+    from {color:violet;}
+    to  {color: turquoise;}
+}
+
+html {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #8d5c6b;
+    animation-name: background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+h1   {
+    color:#8d5c6b;
+    animation-name: h1_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+  body {
+    width: 600px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 0px 40px 40px 40px;
+    border: 5px solid black;
+  }
+ 
+
+img {
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto ;
+}
+
+h2{
+  text-align: center;
+}
+      
